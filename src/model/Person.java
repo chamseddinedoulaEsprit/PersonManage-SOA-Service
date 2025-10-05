@@ -34,6 +34,9 @@ public class Person {
     }
 
     public void setName(String name) {
+        if (name == null || name.trim().isEmpty()) {
+            throw new IllegalArgumentException("Name cannot be null or empty");
+        }
         this.name = name;
     }
 
@@ -43,6 +46,9 @@ public class Person {
     }
 
     public void setAge(int age) {
+        if (age < 0) {
+            throw new IllegalArgumentException("Age cannot be negative");
+        }
         this.age = age;
     }
 
