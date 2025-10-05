@@ -1,7 +1,7 @@
-# Projet SOA2
+# PersonManage SOA Service
 
 ## Description
-Ce projet est une application basée sur les Services Web (SOA) qui gère des informations sur les personnes.
+PersonManage est une application de gestion des personnes basée sur l'architecture SOA (Service-Oriented Architecture). Ce système permet la gestion centralisée des informations personnelles avec une interface de services web RESTful.
 
 ## Structure du Projet
 - `src/model/` : Contient les modèles de données
